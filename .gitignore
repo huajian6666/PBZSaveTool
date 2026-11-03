@@ -1,0 +1,24 @@
+# 构建产物 / 本地文件
+dist/
+dist-new/
+build/
+build-dir/
+.build-tmp/
+.run-tmp/
+.pip-tmp/
+__pycache__/
+*.pyc
+
+# 第三方依赖与解包内容（用 tools/getpkg.py 重新获取）
+vendor/
+
+# 不要提交玩家存档
+samples/
+*.sav
+*.sav.bak-*
+pbzjs/
+ref-pbzeditor/
+ref-trainer/
+
+# exe 里的错误日志
+pbz_error.log
